@@ -62,6 +62,13 @@ button svg{
     transform: scale(0.9);
 }
 
+footer{
+    background-color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+}
+
 @media (max-width:900px) {
     #advice{
         font-size: 20px;
