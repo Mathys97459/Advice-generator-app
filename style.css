@@ -6,6 +6,7 @@ body {
     font-weight: 800;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 section {
@@ -63,10 +64,14 @@ button svg{
 }
 
 footer{
+    display: block;
     background-color: #fff;
     font-size: 1em;
     text-align: center;
     padding: 5px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 @media (max-width:900px) {
